@@ -8,6 +8,18 @@ class Shape:
     def __init__(self,points):
         self.points=points
 
-triangle=Shape([point(0,0),
+triangle=Shape([Point(0,0),
                 Point(5,5),
                 Point(2,4)])
+
+
+#__str__() function is not set, the string representation of the object is returned:
+
+
+class Person:
+    def __init__(self,name,age):
+        self.name=name
+        self.age=age
+
+p1 = Person("Dorothy",50)
+print(p1)
